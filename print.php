@@ -1,11 +1,6 @@
 <?php
-/**
- * GitHub: RoyalHaze
- * Date: 9/9/23
- * Time: 6:55 PM
- **/
 
-require __DIR__.'/App.php';
+require __DIR__.'/app.php';
 
 $app = new App();
 
