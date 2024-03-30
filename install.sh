@@ -230,7 +230,7 @@ get_required_files() {
 	#Download App.php, run.php, and print.php
 	SCRIPT_DIR="/home/ubuntu/"
 	Main_URL="https://raw.githubusercontent.com/ashkan261/limitssh/main/"
-	APP_URL="${Main_URL}App.php"    
+	APP_URL="${Main_URL}app.php"    
 	RUN_URL="${Main_URL}run.php"    
 	PRINT_URL="${Main_URL}print.php"
 
