@@ -229,14 +229,14 @@ add_lines_to_sshd() {
 get_required_files() {
 	#Download App.php, run.php, and print.php
 	SCRIPT_DIR="/home/ubuntu/"
-	Main_URL="https://raw.githubusercontent.com/hamidabbaasi/sshLimiter/main/"
+	Main_URL="https://raw.githubusercontent.com/ashkan261/limitssh/main/"
 	APP_URL="${Main_URL}App.php"    
 	RUN_URL="${Main_URL}run.php"    
 	PRINT_URL="${Main_URL}print.php"
 
 	echo "Downloading App.php, run.php, and print.php..."
 	sudo mkdir -p "$SCRIPT_DIR"
-	sudo wget -O "${SCRIPT_DIR}App.php" "$APP_URL" || { echo "Error: Failed to download App.php." && exit 1; }
+	sudo wget -O "${SCRIPT_DIR}app.php" "$APP_URL" || { echo "Error: Failed to download app.php." && exit 1; }
 	sudo wget -O "${SCRIPT_DIR}run.php" "$RUN_URL" || { echo "Error: Failed to download run.php." && exit 1; }
 	sudo wget -O "${SCRIPT_DIR}print.php" "$PRINT_URL" || { echo "Error: Failed to download print.php." && exit 1; }
 }
