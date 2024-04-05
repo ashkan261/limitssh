@@ -178,7 +178,7 @@ MAX_CONNECTIONS=1
 
 # Get the currently logged-in user from PAM_USER environment variable
 
-CURRENT_USER=\$(whoami)
+CURRENT_USER=\$USER
 
 # Check if the current user is root
 if [ "\$CURRENT_USER" = "root" ]; then
